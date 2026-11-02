@@ -1,0 +1,51 @@
+.text {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+}
+
+.text-xs { 
+    font-size: 12px; 
+}
+.text-sm { 
+    font-size: 14px; 
+}
+.text-md { 
+    font-size: 16px; 
+}
+.text-lg { 
+    font-size: 20px; 
+}
+.text-xl { 
+    font-size: 28px; 
+}
+
+.text-normal { 
+    font-weight: 400; 
+}
+.text-medium { 
+    font-weight: 500; 
+}
+.text-bold   { 
+    font-weight: 700; 
+}
+
+.text-default { 
+    color: aliceblue; 
+}
+
+.text-highlight {
+  background: #356d6b  
+}
+
+.text-muted {
+    color: dimgrey;
+}
+
+.text-ellipsis {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

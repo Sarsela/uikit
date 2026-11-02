@@ -1,0 +1,38 @@
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #5e7775;
+    border-radius: 6px;
+    background: transparent;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, sans-serif;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input:focus {
+    border-color: #166866;
+    box-shadow: 0 0 0 3px rgba(22, 104, 102, 0.2);
+}
+
+.input:disabled {
+    background: #16171d;
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: #2e303a;
+}
+
+.input-small {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.input-medium {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+.input-large {
+    padding: 14px 18px;
+    font-size: 16px;
+}

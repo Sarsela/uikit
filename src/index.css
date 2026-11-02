@@ -1,0 +1,46 @@
+:root {
+  --bg: #fff;
+  background: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16171d;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.container-text {
+  padding: 10px 0;;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-ellipsis {
+  width: 450px;
+  padding: 10px;
+  gap: 15px
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
