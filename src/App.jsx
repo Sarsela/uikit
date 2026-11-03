@@ -6,10 +6,6 @@ import Text from './Text'
 function App() {
   const [inputValue, setInputValue] = useState('')
 
-  const handleClear = () => {
-    setInputValue('')
-  }
-
   return ( <>
   <div className='container'>
     <Text>Кнопки</Text>
